@@ -22,3 +22,5 @@ OrdinalWord.wordinalize(99)     # 'ninety-ninth'
 OrdinalWord.wordinalize('str')  # OrdinalWord::OrdinalWordError: Argument is not an Integer.
 OrdinalWord.wordinalize(0)      # OrdinalWord::OrdinalWordError: Number is less than 1.
 ```
+
+https://badge.fury.io/hooks/github
