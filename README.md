@@ -5,7 +5,7 @@ If not Integer in range [1..99] is passed as an argument, raises OrdinalWordErro
 
 ## Installation
 
-`gem install ordinal_word
+$ gem install ordinal_word
 
 ## Usage
 
@@ -20,5 +20,5 @@ OrdinalWord.wordinalize(1)      # 'first'
 OrdinalWord.wordinalize(13)     # 'thirteenth'
 OrdinalWord.wordinalize(99)     # 'ninety-ninth'
 OrdinalWord.wordinalize('str')  # OrdinalWord::OrdinalWordError: Argument is not an Integer.
-OrdinalWord.wordinalize(0)  # OrdinalWord::OrdinalWordError: Number is less than 1.
+OrdinalWord.wordinalize(0)      # OrdinalWord::OrdinalWordError: Number is less than 1.
 ```
