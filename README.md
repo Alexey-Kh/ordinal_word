@@ -23,4 +23,4 @@ OrdinalWord.wordinalize('str')  # OrdinalWord::OrdinalWordError: Argument is not
 OrdinalWord.wordinalize(0)      # OrdinalWord::OrdinalWordError: Number is less than 1.
 ```
 
-https://badge.fury.io/hooks/github
+[![Gem Version](https://badge.fury.io/rb/ordinal_word.svg)](http://badge.fury.io/rb/ordinal_word)
