@@ -1,10 +1,10 @@
-# Current version accepts numbers only in range [1..99]
-
 module OrdinalWord
 
   class OrdinalWordError < Exception
   end
 
+  # Takes Integer in range 1-99 and returns string with ordinal number converted to word.
+  # If invalid argument is passed, raises OrdinalWordError with appropriate message.
   def self.wordinalize(int)
     raise OrdinalWordError.new("Argument is not an Integer.") unless int.is_a?(Integer)
     raise OrdinalWordError.new("Number is less than 1.") if int < 1
