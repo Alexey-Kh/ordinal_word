@@ -1,5 +1,7 @@
 # ordinal_word
 
+[![Gem Version](https://badge.fury.io/rb/ordinal_word.svg)](http://badge.fury.io/rb/ordinal_word)
+
 Converts a number in range 1-99 (e.g. 1) to ordinal word (e.g. first) in Ruby.
 If not Integer in range [1..99] is passed as an argument, raises OrdinalWordError with appropriate message, otherwise returns string.
 
@@ -22,5 +24,3 @@ OrdinalWord.wordinalize(99)     # 'ninety-ninth'
 OrdinalWord.wordinalize('str')  # OrdinalWord::OrdinalWordError: Argument is not an Integer.
 OrdinalWord.wordinalize(0)      # OrdinalWord::OrdinalWordError: Number is less than 1.
 ```
-
-[![Gem Version](https://badge.fury.io/rb/ordinal_word.svg)](http://badge.fury.io/rb/ordinal_word)
